@@ -85,31 +85,31 @@ section {
   margin: 0 auto;
 }
 
-name {
+.profile-name {
   font-size: 1.1rem;
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
 }
 
-.bycycle-list {
+.bicycle-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-.bycycle-item {
+.bicycle-item {
   text-align: center;
 }
 
-.bycycle-title {
+.bicycle-title {
   font-size: 1.1rem;
   font-weight: bold;
   margin-top: 10px;
 }
 
-.bycycle-text {
+.bicycle-text {
   margin-top: 10px;
 }
 
@@ -135,7 +135,7 @@ name {
     gap: 20px;
     width: 100%;
   }
-  .bycycle-list {
+  .bicycle-list {
     flex-direction: column;
     gap: 40px;
   }
