@@ -88,6 +88,8 @@ section {
 name {
   font-size: 1.1rem;
   font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .bycycle-list {
@@ -117,4 +119,24 @@ name {
   padding: 20px 0;
   font-size: 14px;
   color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+  .keyvisual img {
+    height: 70svh;
+    object-fit: cover;
+  }
+  .profile {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  .bycycle-list {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
