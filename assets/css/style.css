@@ -9,7 +9,7 @@
 /* Header */
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -103,6 +103,11 @@ section {
 
 .bicycle-item {
   text-align: center;
+}
+
+.bicycle-item a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .bicycle-title {

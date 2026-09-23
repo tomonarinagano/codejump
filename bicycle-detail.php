@@ -4,15 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css" />
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <header>
       <div class="container">
         <p class="logo">
-          <a href="/"><img src="assets/images/logo.png" alt="ロゴ画像" /></a>
+          <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="ロゴ画像" /></a>
         </p>
         <nav>
           <ul>
@@ -24,7 +24,7 @@
     </header>
     <main>
       <div class="container">
-        <div class="detail-img"><img src="assets/images/bicycle1_1.png" alt="自転車画像" /></div>
+        <div class="detail-img"><img src="<img src="<?php echo get_template_directory_uri(); ?>assets/images/bicycle2.png" alt="自転車画像" />/assets/images/bicycle1_1.png" alt="自転車画像" /></div>
         <article class="detail">
           <h1 class="detail-title">タイトルタイトル１</h1>
           <p class="detail-text">
