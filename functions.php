@@ -31,3 +31,6 @@ function my_theme_enqueue_assets() {
   );
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_assets');
+
+// Contact Form 7 の自動 p / br タグ挿入を確実に無効化
+add_filter('wpcf7_autop_or_not', '__return_false');

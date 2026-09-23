@@ -152,6 +152,72 @@ section {
   color: #333;
 }
 
+/* Contact Form 7 確実適用スタイル */
+.wpcf7-custom-form {
+  max-width: 600px;
+  /* margin: 0 auto 30px; */
+}
+
+.wpcf7-custom-form dl {
+  margin: 0;
+  padding: 0;
+}
+
+.wpcf7-custom-form dt {
+  font-weight: bold;
+  margin: 0 0 8px 0;
+}
+
+.wpcf7-custom-form dt .required {
+  background-color: #e53935;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
+.wpcf7-custom-form dd {
+  margin: 0 0 20px 0;
+}
+
+.wpcf7-custom-form input[type="text"],
+.wpcf7-custom-form input[type="email"],
+.wpcf7-custom-form textarea {
+  width: 100% !important;
+  padding: 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 4px !important;
+  box-sizing: border-box !important;
+  font-size: 1rem !important;
+  display: block !important;
+}
+
+.wpcf7-custom-form textarea {
+  height: 150px !important;
+  resize: vertical !important;
+}
+
+.wpcf7-custom-form .contact-submit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.wpcf7-custom-form input[type="submit"] {
+  background-color: #333 !important;
+  color: #fff !important;
+  border: none !important;
+  padding: 12px 40px !important;
+  font-size: 1rem !important;
+  cursor: pointer !important;
+  border-radius: 4px !important;
+  display: inline-block !important;
+}
+
+.wpcf7-custom-form input[type="submit"]:hover {
+  background-color: #555 !important;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .container {
