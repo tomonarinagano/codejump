@@ -9,7 +9,7 @@
               </div>
             <?php else : ?>
               <div class="detail-img">
-                <img src="<?php echo get_template_directory_uri(); ?>assets/images/bicycle2.png" alt="<?php the_title(); ?>" />
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bicycle2.png" alt="<?php the_title(); ?>" />
               </div>
             <?php endif; ?>
             <article class="detail">
@@ -18,7 +18,7 @@
                 <?php the_content(); ?>
               </p>
               <div class="back-btn">
-                <a href="<?php echo home_url('/'); ?>" class="btn">トップに戻る</a>
+                <a href="<?php echo esc_url( home_url() ); ?>" class="btn">トップに戻る</a>
               </div>
             </article>
           <?php endwhile; ?>

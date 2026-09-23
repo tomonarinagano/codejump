@@ -9,8 +9,8 @@
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P664RVZP');</script>
-<!-- End Google Tag Manager -->
+      })(window,document,'script','dataLayer','GTM-P664RVZP');</script>
+      <!-- End Google Tag Manager -->
     <?php endif; ?>
     <?php wp_head(); ?>
   </head>
@@ -24,7 +24,7 @@
     <header class="header">
       <div class="container">
         <h1 class="logo">
-          <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="ロゴ画像" /></a>
+          <a href="<?php echo esc_url( home_url() ); ?>"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.png" alt="ロゴ画像" /></a>
         </h1>
         <nav>
           <?php
